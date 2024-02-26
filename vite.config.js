@@ -4,5 +4,5 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 
 export default defineConfig({
   plugins: [reactRefresh()],
-  base: '/ui/', // Change this to your repository name
+  base: '/assignment/', // Change this to your repository name
 });
