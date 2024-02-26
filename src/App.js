@@ -8,7 +8,8 @@ const App = () => (
    <Switch>
     <Route exact path="/signup" component={SignUpForm} />
     <Route exact path = "/" component = {Home} />
-    <Route component = {NotFound} />
+    <Route exact path = "/not-found" component = {NotFound} />
+    <Redirect to = "/not-found" />
    </Switch>
 )
 
