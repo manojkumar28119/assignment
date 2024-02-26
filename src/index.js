@@ -6,7 +6,7 @@ import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename = "/ui" >
+    <BrowserRouter basename = "/assignment" >
       <App />
     </BrowserRouter>
   </React.StrictMode>,
