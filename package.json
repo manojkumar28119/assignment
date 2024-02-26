@@ -1,5 +1,5 @@
 {
-  "homepage": "https://manojkumar28119.github.io/assignment/",
+  "homepage": "https://manojkumar28119.github.io/assignment",
   "name": "myapp",
   "version": "1.0.0",
   "private": true,
@@ -21,6 +21,7 @@
     "yarn": "^1.22.21"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
     "npm-run-all": "4.1.5",
@@ -35,7 +36,7 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --fix",
     "predeploy": "npm run build",
-    "deploy": "react-scripts build && gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
